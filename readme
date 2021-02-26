@@ -1,0 +1,13 @@
+- DScope uses the eclipse kepler
+- The src code is in the src.tar.gz
+- The scripts are in the scripts/
+- There is a demo in the Demo_20190423.tar.gz for reference
+- Before runing those scripts, you should compile the target Java application, and change some hard-coded variables in the script.
+- Jar files are needed, including the target application jars with their dependent lib jars and also the following jars:
+  - junit-4.12.jar
+  - hamcrest-core-1.3.jar
+  - tools.jar
+  - rt.jar
+  - jce.jar
+  - scala-library.jar
+- If there are some errors when running dscope code, it is mostly because of the missing jars and the configuration variables in the script are misconfigured.
